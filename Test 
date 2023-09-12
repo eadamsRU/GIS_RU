@@ -1,0 +1,46 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMatJ3n5XVAKhHKRNYyIukF",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/eadamsRU/GIS_RU/blob/main/Test%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "OW2rnuQbakrE"
+      },
+      "outputs": [],
+      "source": [
+        "#download file from online and save in colab as ex1.csv; note it's from: https://conjointly.com/kb/correlation-statistic/\n",
+        "#urllib.request.urlretrieve(\"https://drive.google.com/uc?id=1YH8DfzsQ8suZkVQBk7T9FTKvvm9Vyej8&export=download\", \"ex1.csv\")\n",
+        "\n",
+        "#update the url with your own dataset\n",
+        "!wget -q -O ex1.csv https://drive.google.com/uc?id=1YH8DfzsQ8suZkVQBk7T9FTKvvm9Vyej8&export=download\n",
+        "\n"
+      ]
+    }
+  ]
+}
